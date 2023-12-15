@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+}
+:root{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.container{
+background-image: url( "img/drew-coffman-1872.jpg" ) ;
+width:device_width;
+height: 900px;
+background-size:100%;
+text-align: center;
+
+}
+
+
+.img{
+    
+    float: left;
+    padding: 14px 16px;
+}
+.nav{
+    width:100%;
+    padding-right: 24px;
+    position:fixed; 
+    top:1px;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 70px;
+    direction: rtl;
+}
+.nav::backdrop{
+    background-color: #EEE;
+}
+
+
+  /* Style the links inside the navigation bar */
+.nav a {
+    float: right;
+    color: #eee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+    margin-top: 30px;
+    
+}
+
+  /* Change the color of links on hover */
+.nav a:hover {
+    background-color: rgba(255,255,255,0);
+    color: #f0b674d8;
+    border-top: 3px solid #f0b674d8;
+}
+
+  /* Add a color to the active/current link */
+.nav a.active {
+    color: white;
+    border-top: 3px solid #f0b674d8;
+}
+
+
+.b2{
+    background-color: rgba(255,255,255,0);
+    color: #EEE;
+    border-color: #EEE;
+    padding: 15px 32px;
+    border-radius: 5%;
+}
+.b1:hover,.b2:hover{
+    background-color: rgba(255,255,255);
+    color: black;
+    border-color: #EEE;
+}
+.b1{
+    background-color:rgb(105, 75, 41);
+    color: #EEE;
+    border-color: rgb(105, 75, 41);
+    padding: 15px 32px;
+    border-radius:5%;
+}
+
+.one{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 350px;
+}
+
+
+.two{
+    margin: 1%;
+    padding: 60px;
+    text-align: center;
+  
+}
+
+.t1{
+    
+    display: inline-block;
+    
+}
+.t2{
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
+    
+}
+
+.three{
+    background-color: #EEE;
+    text-align: center;
+    margin: 5%;
+}
+
+.th1{
+  
+    display: inline-block;
+    width: 350px;
+} 
+
+.th2{
+   
+    display: inline-block;
+    
+}
+
+
+.four{
+    margin-left: 1%; 
+    text-align: center;
+    background-color: #bdbcbc;
+}
+
+.f1,.f2 ,.f3{
+    display: inline-block; 
+    width: 325px;
+    margin-right: 60px;
+}
+
+.five{
+padding: 50px;
+}
+.fi1{
+    display: inline-block;
+    width: 400px;
+    vertical-align:super;
+}
+.fi2{
+    display: inline-block;
+}
+.six{
+    color: #969696;
+    background-color:  #403d38;
+}
+.six h4 {
+    color: #EEE;
+}
+.s1,.s2,.s3{
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+}
+.seven{
+    background-color: #353330;
+    text-align: center;
+}
+.eight{
+    padding: 50px;
+    }
+
+.e2, .e1{
+        display: inline-block;
+        width: 350px;
+        padding: 30px;
+    }
